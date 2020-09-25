@@ -5,7 +5,7 @@ import Login from './Components/Pages/Login'
 import {ProtectedRoute} from './ProtectedRoute'
 export const AppRouter = () => {
     return (
-        <Router basename="/portfolio">
+        <Router basename="/Portfolio">
             <Switch>
                 <ProtectedRoute path="/" exact component={Home}/>
                 <Route path="/Login" exact component={Login}/>
