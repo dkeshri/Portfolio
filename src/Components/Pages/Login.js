@@ -1,5 +1,5 @@
-import { Input, Button } from '@material-ui/core'
-import React, { useState, useEffect } from 'react'
+import { Button } from '@material-ui/core'
+import React, { useState } from 'react'
 import '../../assets/css/Login.css'
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -8,6 +8,8 @@ import Link from '@material-ui/core/Link';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Box from '@material-ui/core/Box';
+import { useHistory } from 'react-router-dom'
+import { setCookie,removeCookie } from '../../utility'
 
 function Copyright() {
   return (
@@ -37,15 +39,17 @@ const style = {
 export default function Login() {
   const [userDetails, setUserDetails] = useState({ userName: '', password: '' });
   const classes = useStyles();
-  const onUserNameChange = e => {
-    console.log(e.target.value);
-    setUserDetails({ userName: e.target.value, ...userDetails });
-  }
-  const onPasswordChange = e => {
-    setUserDetails({ password: e.target.value, ...userDetails });
-  }
+  const history = useHistory();
   const onSubmit = (e) => {
-    console.log(userDetails);
+    if (userDetails.userName == 'dkeshridev@gmail.com' && userDetails.password == '123') {
+      setCookie({
+        key: 'isAuth',
+        value: 'true'
+      });
+      history.push("/home");
+    } else {
+      removeCookie('isAuth');
+    }
   }
   return (
     <div className="boxPosition box">
@@ -63,7 +67,9 @@ export default function Login() {
             name="email"
             autoComplete="email"
             autoFocus
-            onChange={onUserNameChange}
+            onChange={e => {
+              setUserDetails({ ...userDetails, userName: e.target.value })
+            }}
             size="small"
           />
           <TextField
@@ -76,7 +82,9 @@ export default function Login() {
             type="password"
             id="password"
             autoComplete="current-password"
-            onChange={onPasswordChange}
+            onChange={e => {
+              setUserDetails({ ...userDetails, password: e.target.value })
+            }}
             size="small"
           />
           <FormControlLabel

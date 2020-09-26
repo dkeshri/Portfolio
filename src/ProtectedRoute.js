@@ -1,12 +1,18 @@
 import React from 'react'
 import { Redirect } from 'react-router-dom'
-export const  ProtectedRoute = (props)=> {
+import NavBar from './Components/Navbar'
+import {getCookie} from './utility'
+export const ProtectedRoute = (props) => {
     const Component = props.component;
-        const isAuthenticated = false;
-       
-        return isAuthenticated ? (
+    const isAuthenticated = true;
+
+    return isAuthenticated ? (<>
+        <NavBar />
+        <section>
             <Component />
-        ) : (
+        </section>
+    </>
+    ) : (
             <Redirect to={{ pathname: '/login' }} />
         );
 }

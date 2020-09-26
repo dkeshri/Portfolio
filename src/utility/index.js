@@ -14,6 +14,7 @@ export const setCookie = (argCookies = {}) => {
         path = argCookies.path;
     }
     if (argCookies.key !== undefined && argCookies.value !== undefined) {
+        console.log(argCookies);
         cookie.save(
             argCookies.key,
             argCookies.value,
@@ -22,8 +23,8 @@ export const setCookie = (argCookies = {}) => {
                 expires,
                 //maxAge: 1000,
                 //domain: 'https://play.bukinoshita.io',
-                secure: true,
-                httpOnly: true
+                 //secure: true,
+                 //httpOnly: true
             }
         );
     } else {
@@ -39,4 +40,12 @@ export const getCookie = (key) => {
         console.log(`key can not be ${key}`);
     }
 
+}
+export const removeCookie = (key) =>{
+    if (key !== undefined && key !== null) {
+        return cookie.remove(key);
+    }
+    else {
+        console.log(`key can not be ${key}`);
+    }
 }
