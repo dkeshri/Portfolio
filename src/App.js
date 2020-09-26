@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import './assets/css/font-awesome.css'
 import './App.css';
 import {AppRouter} from './Router'
 function App() {
