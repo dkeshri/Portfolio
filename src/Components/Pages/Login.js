@@ -4,7 +4,7 @@ import '../../assets/css/Login.css'
 import TextField from '@material-ui/core/TextField';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import { Alert, AlertTitle } from '@material-ui/lab';
+import { Alert } from '@material-ui/lab';
 import Collapse from '@material-ui/core/Collapse';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -16,7 +16,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <a style={{ color: 'grey' ,textDecoration:"inherit"}} href="https://github.com/dkeshri">
+      <a style={{ color: 'grey', textDecoration: "inherit" }} href="https://github.com/dkeshri">
         Deepak Keshri
         </a>{' '}
       {new Date().getFullYear()}
@@ -39,7 +39,7 @@ const style = {
 
 export default function Login() {
   const [userDetails, setUserDetails] = useState({ userName: '', password: '' });
-  const [validataionError, setError] = useState({hasError:false,errorMessage:''});
+  const [validataionError, setError] = useState({ hasError: false, errorMessage: '' });
   const classes = useStyles();
   const history = useHistory();
   const onSubmit = (e) => {
@@ -51,17 +51,25 @@ export default function Login() {
       history.push("/home");
     } else {
       removeCookie('isAuth');
-      setError({hasError:true,errorMessage:'Email id or password is invalid.'});
+      setError({ hasError: true, errorMessage: 'Email id or password is invalid.' });
     }
   }
   return (<>
     <div className="boxPosition box">
       <div className="content">
-        <Collapse style={{marginBottom:'10px'}} in={validataionError.hasError}>
+        <Collapse style={{ marginBottom: '10px' }} in={validataionError.hasError}>
           <Alert severity="error">
             {validataionError.errorMessage}
           </Alert>
         </Collapse>
+        {
+          // conditionali rendering 
+          // validataionError.hasError ? <Collapse style={{ marginBottom: '10px' }} in={validataionError.hasError}>
+          //   <Alert severity="error">
+          //     {validataionError.errorMessage}
+          //   </Alert>
+          // </Collapse> : ''
+        }
         <img style={style.img} src={require('../../assets/img/logo.png')} />
         <h1 id="signLabel">Sign In</h1>
         <form className={classes.form} noValidate>
@@ -76,6 +84,7 @@ export default function Login() {
             autoComplete="email"
             autoFocus
             onChange={e => {
+              setError({ hasError: false });
               setUserDetails({ ...userDetails, userName: e.target.value })
             }}
             size="small"
@@ -91,6 +100,7 @@ export default function Login() {
             id="password"
             autoComplete="current-password"
             onChange={e => {
+              setError({ hasError: false });
               setUserDetails({ ...userDetails, password: e.target.value })
             }}
             size="small"

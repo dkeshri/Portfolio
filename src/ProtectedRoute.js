@@ -7,10 +7,12 @@ export const ProtectedRoute = (props) => {
     const isAuthenticated = true;
 
     return isAuthenticated ? (<>
+        <div id="main">
         <NavBar />
         <section>
             <Component />
         </section>
+        </div>
     </>
     ) : (
             <Redirect to={{ pathname: '/login' }} />
