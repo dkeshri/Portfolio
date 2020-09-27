@@ -1,13 +1,32 @@
+:root{
+  --primaryColor:#373B44;
+  --secondaryColor:#4a4e58;
+  --textSecondary:grey;
+  --scrollColor:#b3b6bb;/*ced1d8*/
+  --scrollBGColor:rgb(236, 229, 229);
+  --scrollBorderColor:#6e6f70;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-:root{
-  --primaryColor:#373B44;
-  --secondaryColor:#4a4e58;
-  --textSecondary:grey;
+html{
+  scroll-behavior: smooth;
 }
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: var(--scrollBGColor);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: var(--scrollColor);
+  border-radius: 20px;
+  /* border: 1px solid var(--scrollBorderColor); */
+}
+
 a {
   text-decoration: none;
 }
