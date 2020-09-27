@@ -3,15 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --primaryColor:#373B44;
+  --secondaryColor:#4a4e58;
+  --textSecondary:grey;
+}
 a {
   text-decoration: none;
 }
 li{
   list-style: none;
 }
-section {
+.mainContentSection {
   width: 100%;
-  background-color: #4a4e58;
+  /* background-color: var(--secondaryColor); */
   color: white;
   display: inline-block;
 }

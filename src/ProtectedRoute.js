@@ -9,9 +9,9 @@ export const ProtectedRoute = (props) => {
     return isAuthenticated ? (<>
         <div id="main">
         <NavBar />
-        <section>
+        <div className="mainContentSection">
             <Component />
-        </section>
+        </div>
         </div>
     </>
     ) : (

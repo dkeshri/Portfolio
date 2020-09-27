@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Home from './Components/Pages/Home'
+import Home from './Components/Pages/Home/Home'
 import Login from './Components/Pages/Login'
 import { ProtectedRoute } from './ProtectedRoute'
 import  ForgotPassword from  './Components/Pages/ForgotPassword'

@@ -16,7 +16,7 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {'Copyright © '}
-      <a style={{ color: 'grey', textDecoration: "underline" }} href="https://github.com/dkeshri">
+      <a style={{ color: 'var(--textSecondary)', textDecoration: "underline" }} href="https://github.com/dkeshri">
         Deepak Keshri
         </a>{' '}
       {new Date().getFullYear()}

@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <nav>
             <div className="logo-container">
-                <h3 className="logo">Brand<span>Name</span></h3>
+                <h3 className="logo">Deepak<span>_keshri</span></h3>
             </div>
             <div className="nav-btn">
                 <div className="nav-links">
