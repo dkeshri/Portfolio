@@ -34,10 +34,8 @@ li{
   list-style: none;
 }
 .mainContentSection {
-  width: 100%;
   /* background-color: var(--secondaryColor); */
   color: white;
-  display: inline-block;
 }
 
 

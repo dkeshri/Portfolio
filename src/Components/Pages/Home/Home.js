@@ -10,10 +10,8 @@ const style = {
 function Home() {
     return (
         <>
-            <Banner/>
-            <div>
-                <Footer/>
-            </div>
+            <Banner />
+            <Footer />
         </>
     )
 }
