@@ -4,9 +4,7 @@ import '../../../assets/css/Pages/Home/Banner.css'
 function Banner() {
     return (
         <div className="banner-container">
-            <video src={require('../../../assets/videos/Banner.mp4')} autoPlay loop muted>
-
-            </video>
+            {/* <video src={require('../../../assets/videos/Banner.mp4')} autoPlay loop muted/> */}
             <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
