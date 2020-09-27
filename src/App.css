@@ -11,11 +11,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-html{
+/* html{
   scroll-behavior: smooth;
 }
-/* Works on Chrome/Edge/Safari */
-/* *::-webkit-scrollbar {
+/* Works on Chrome/Edge/Safari 
+*::-webkit-scrollbar {
   width: 12px;
 }
 *::-webkit-scrollbar-track {
