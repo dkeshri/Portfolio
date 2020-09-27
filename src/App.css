@@ -15,7 +15,7 @@ html{
   scroll-behavior: smooth;
 }
 /* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   width: 12px;
 }
 *::-webkit-scrollbar-track {
@@ -24,8 +24,7 @@ html{
 *::-webkit-scrollbar-thumb {
   background-color: var(--scrollColor);
   border-radius: 20px;
-  /* border: 1px solid var(--scrollBorderColor); */
-}
+} */
 
 a {
   text-decoration: none;

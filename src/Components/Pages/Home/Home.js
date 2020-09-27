@@ -10,13 +10,6 @@ const style = {
 function Home() {
     return (
         <>
-            {/* <div className="home-container">
-                <div className="my-info">
-                    <h1 style={{ textDecoration: 'underline' }}>Welcome!</h1>
-                    <span>I am a Software Developer</span>
-                    <span>Dkeshri!</span>
-                </div>
-            </div> */}
             <Banner/>
             <div>
                 <Footer/>

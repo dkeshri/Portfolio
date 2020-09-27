@@ -70,11 +70,11 @@ video {
   }
   @media screen and (max-width: 510px) {
     .banner-container > h1 {
-      font-size: 40px;
+      font-size: 30px;
       margin-top: -100px;
     }
   
     .banner-container > p {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
