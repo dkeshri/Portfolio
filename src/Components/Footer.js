@@ -64,11 +64,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              Deepak_keshri
+              Dkeshri
               <i className='fa fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>Deepak_keshri © 2020</small>
+          <small className='website-rights'>dkeshridev@gmail.com © 2020</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
@@ -78,30 +78,30 @@ function Footer() {
             >
               <i className='fa fa-facebook-f' />
             </Link>
-            <Link
+            <a
               className='social-icon-link instagram'
-              to='/'
+              href='https://www.instagram.com/deepakkeshri0613/'
               target='_blank'
               aria-label='Instagram'
             >
               <i className='fa fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link youtube'
-              to='/'
+              href='https://github.com/dkeshri'
               target='_blank'
-              aria-label='Youtube'
+              aria-label='GitHub'
             >
-              <i className='fa fa-youtube' />
-            </Link>
-            <Link
+              <i className='fa fa-github-square' />
+            </a>
+            <a
               className='social-icon-link twitter'
-              to='/'
+              href='https://twitter.com/DeepakK18204431'
               target='_blank'
               aria-label='Twitter'
             >
               <i className='fa fa-twitter' />
-            </Link>
+            </a>
             <a
               className='social-icon-link twitter'
               href='https://in.linkedin.com/in/deepak-keshri-226115129'
