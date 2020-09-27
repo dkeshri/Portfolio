@@ -52,7 +52,7 @@
 .footer-link-items {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin: 16px;
   text-align: left;
   width: 160px;
@@ -102,17 +102,13 @@
   background-color: var(--primaryColor);
   font-weight: 300;
 }
-.social-media small{
-  display: inline-block;
-}
-
-
-
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+}
+.social-icons *{
+  padding: 0 .25rem;
 }
 
 .social-logo {
@@ -161,4 +157,25 @@
 }
 
 @media screen and (max-width: 768px) {
+  .social-media div:nth-child(1){
+    display: none;
+  }
+
+}
+@media screen and (max-width: 550px) {
+  .social-media{
+    flex-direction: column;
+    height: 4rem;
+    padding:.1rem 0;
+  }
+  .social-icons{
+    order: 1;
+  }
+  .social-media div:nth-child(2){
+    order: 2;
+  }
+  .footer-links{
+    display: none;
+  }
+
 }
