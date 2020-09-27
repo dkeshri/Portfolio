@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
             <Banner />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
