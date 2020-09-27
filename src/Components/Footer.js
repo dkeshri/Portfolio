@@ -26,14 +26,12 @@ function Footer() {
         </div>
       </section>
       <div className='footer-links'>
-        <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>Terms of services</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
@@ -42,8 +40,6 @@ function Footer() {
             <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
-        </div>
-        <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
@@ -58,59 +54,51 @@ function Footer() {
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
           </div>
-        </div>
       </div>
       <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              Dkeshri
-              <i className='fa fa-typo3' />
-            </Link>
-          </div>
-          <small className='website-rights'>dkeshridev@gmail.com © 2020</small>
-          <div className='social-icons'>
-            <Link
-              className='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i className='fa fa-facebook-f' />
-            </Link>
-            <a
-              className='social-icon-link instagram'
-              href='https://www.instagram.com/deepakkeshri0613/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i className='fa fa-instagram' />
-            </a>
-            <a
-              className='social-icon-link youtube'
-              href='https://github.com/dkeshri'
-              target='_blank'
-              aria-label='GitHub'
-            >
-              <i className='fa fa-github-square' />
-            </a>
-            <a
-              className='social-icon-link twitter'
-              href='https://twitter.com/DeepakK18204431'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i className='fa fa-twitter' />
-            </a>
-            <a
-              className='social-icon-link twitter'
-              href='https://in.linkedin.com/in/deepak-keshri-226115129'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i className='fa fa-linkedin' />
-            </a>
-          </div>
+        <div>dkeshridev@gmail.com</div>
+        <div>Copyright © Deepak Keshri 2020.</div>
+        <div className='social-icons'>
+          <Link
+            className='social-icon-link facebook'
+            to='/'
+            target='_blank'
+            aria-label='Facebook'
+          >
+            <i className='fa fa-facebook-f' />
+          </Link>
+          <a
+            className='social-icon-link instagram'
+            href='https://www.instagram.com/deepakkeshri0613/'
+            target='_blank'
+            aria-label='Instagram'
+          >
+            <i className='fa fa-instagram' />
+          </a>
+          <a
+            className='social-icon-link youtube'
+            href='https://github.com/dkeshri'
+            target='_blank'
+            aria-label='GitHub'
+          >
+            <i className='fa fa-github-square' />
+          </a>
+          <a
+            className='social-icon-link twitter'
+            href='https://twitter.com/DeepakK18204431'
+            target='_blank'
+            aria-label='Twitter'
+          >
+            <i className='fa fa-twitter' />
+          </a>
+          <a
+            className='social-icon-link twitter'
+            href='https://in.linkedin.com/in/deepak-keshri-226115129'
+            target='_blank'
+            aria-label='LinkedIn'
+          >
+            <i className='fa fa-linkedin' />
+          </a>
         </div>
       </section>
     </div>

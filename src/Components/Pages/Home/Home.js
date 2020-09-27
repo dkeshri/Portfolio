@@ -12,9 +12,9 @@ function Home() {
         <div>
             <Banner />
             <div className="test">
-                test
+                <h1>Skill section </h1>
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
 
     )
