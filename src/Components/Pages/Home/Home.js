@@ -9,10 +9,11 @@ const style = {
 }
 function Home() {
     return (
-        <>
+        <div>
             <Banner />
             <Footer />
-        </>
+        </div>
+
     )
 }
 
