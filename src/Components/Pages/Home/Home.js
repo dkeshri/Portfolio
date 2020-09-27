@@ -11,7 +11,10 @@ function Home() {
     return (
         <div>
             <Banner />
-            <Footer />
+            <div className="test">
+                test
+            </div>
+            {/* <Footer /> */}
         </div>
 
     )

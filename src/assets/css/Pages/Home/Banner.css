@@ -68,6 +68,14 @@ video {
       width: 100%;
     }
   }
+  .test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    color: black;
+  }
   @media screen and (max-width: 590px) {
     .banner-container > h1 {
       font-size: 30px;

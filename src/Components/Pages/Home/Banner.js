@@ -5,7 +5,7 @@ function Banner() {
     return (
         <div className="banner-container">
             {/* <video src={require('../../../assets/videos/Banner.mp4')} autoPlay loop muted/> */}
-            <h1>ADVENTURE AWAITS</h1>
+            {/* <h1>ADVENTURE AWAITS</h1>
             <p>What are you waiting for?</p>
             <div className='hero-btns'>
                 <Button
@@ -23,8 +23,8 @@ function Banner() {
                 >
                     WATCH TRAILER <i className='fa fa-play-circle' />
                 </Button>
-            </div>
-
+            </div> */}
+            banner walaa
         </div>
     )
 }
