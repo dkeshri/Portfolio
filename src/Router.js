@@ -5,6 +5,7 @@ import Login from './Components/Pages/Login'
 import { ProtectedRoute } from './ProtectedRoute'
 import  ForgotPassword from  './Components/Pages/ForgotPassword'
 import  RegisterUser from './Components/Pages/RegisterUser'
+import PageNotFound from './Components/PageNotFound'
 export const AppRouter = () => {
     return (
         <Router basename="/Portfolio">
@@ -14,6 +15,7 @@ export const AppRouter = () => {
                 <Route path="/RegisterUser" exact component={RegisterUser} />
                 <ProtectedRoute path="/" exact component={Home} />
                 <ProtectedRoute path="/Home" exact component={Home} />
+                <Route path="*" exact component={PageNotFound} />
             </Switch>
         </Router>
     )

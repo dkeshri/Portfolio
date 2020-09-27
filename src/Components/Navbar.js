@@ -75,16 +75,8 @@ function Navbar() {
                                 </ul>
                             </div>
                         </li>
-                        <li className="nav-link"><a href="#">Features <i className="fa fa-caret-down" aria-hidden="true"></i></a>
-                            <div className="dropdown">
-                                <ul>
-                                    <li className="dropdown-link"><a href="#">Link1</a></li>
-                                    <li className="dropdown-link"><a href="#">Link2</a></li>
-                                    <li className="dropdown-link"><a href="#">Link3</a></li>
-                                    <li className="dropdown-link"><a href="#">Link4</a></li>
-                                    <div className="arrow"></div>
-                                </ul>
-                            </div>
+                        <li className="nav-link"><a href="#">Contact Me</a>
+                            
                         </li>
                     </ul>
                 </div>
