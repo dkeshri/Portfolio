@@ -2,7 +2,8 @@ import React from 'react';
 import '../assets/css/Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
-
+import SocialMediaIcons from './SocialMediaIcons'
+import SocialMediaFooter from './SocialMediaFooter'
 function Footer() {
   return (
     <div className='footer-container'>
@@ -55,52 +56,7 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
       </div>
-      <section className='social-media'>
-        <div>dkeshridev@gmail.com</div>
-        <div>Copyright © Deepak Keshri 2020.</div>
-        <div className='social-icons'>
-          <Link
-            className='social-icon-link facebook'
-            to='/'
-            target='_blank'
-            aria-label='Facebook'
-          >
-            <i className='fa fa-facebook-f' />
-          </Link>
-          <a
-            className='social-icon-link instagram'
-            href='https://www.instagram.com/deepakkeshri0613/'
-            target='_blank'
-            aria-label='Instagram'
-          >
-            <i className='fa fa-instagram' />
-          </a>
-          <a
-            className='social-icon-link youtube'
-            href='https://github.com/dkeshri'
-            target='_blank'
-            aria-label='GitHub'
-          >
-            <i className='fa fa-github-square' />
-          </a>
-          <a
-            className='social-icon-link twitter'
-            href='https://twitter.com/DeepakK18204431'
-            target='_blank'
-            aria-label='Twitter'
-          >
-            <i className='fa fa-twitter' />
-          </a>
-          <a
-            className='social-icon-link twitter'
-            href='https://in.linkedin.com/in/dkeshri'
-            target='_blank'
-            aria-label='LinkedIn'
-          >
-            <i className='fa fa-linkedin' />
-          </a>
-        </div>
-      </section>
+      <SocialMediaFooter/>
     </div>
   );
 }

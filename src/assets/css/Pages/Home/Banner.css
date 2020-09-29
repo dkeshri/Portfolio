@@ -1,88 +1,61 @@
 .banner-container{
-    background: url('../../../img/img-1.jpg') center center/cover no-repeat;
+    /* background: url('../../../img/img-1.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: .3s;
+    background-color: white;
 }
-video {
-  object-fit: cover;
-  width: 100%;
+.content{
+  background-color: var(--secondaryColor);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   height: 100%;
-  position: fixed;
-  z-index: -1;
-  }
-  .banner-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
-    transition: all .3s ease-in-out;
-  }
-  
-  .banner-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .hero-btns {
-    margin-top: 32px;
-  }
-  
-  .hero-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  @media screen and (max-width: 1050px) {
-    .banner-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-      transition: all .3s ease-in-out;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .banner-container > h1 {
-      font-size: 50px;
-      margin-top: -150px;
-      transition: all .3s ease-in-out;
-    }
-  
-    .banner-container > p {
-      font-size: 30px;
-      transition: all .3s ease-in-out;
-    }
-    .btn {
-      width: 100%;
-    }
-  }
-  .test{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fff;
-    color: black;
-  }
-  @media screen and (max-width: 590px) {
-    .banner-container > h1 {
-      font-size: 30px;
-      margin-top: -100px;
-      transition: all .3s ease-in-out;
-    }
-  
-    .banner-container > p {
-      font-size: 18px;
-      transition: all .3s ease-in-out;
-      margin-bottom: 12rem;
-    }
-  }
+  justify-content: center;
+  align-items: center;
+}
+.content * {
+  font-weight: 500;
+}
+.image-container{
+  position: relative;
+  background-color: white;
+  width: 50%;
+  height: 100%;
+  border-left: 100px solid var(--secondaryColor);;
+  border-bottom: 100vh solid transparent;
+}
+.image-container .image{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 350px;
+    height: 400px;
+    transform: translate(-50%,30%);
+    border-radius: 50px;
+    background-image: url('../../../img/dkeshri.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-container .content h1{
+  font-weight: 500;
+}
+.banner-container .content h1 span{
+  font-weight: 200;
+}
+.banner-container .content > span{
+  font-weight: 300;
+  font-size: 16px;
+}
+.banner-content-socialMedia{
+  min-width: 40%;
+  margin-top: 1.3rem;
+}
+.test{
+  display: flex;
+  justify-content: center;
+  color: black;
+  height: 100vh;
+  background-color: white;
+}
