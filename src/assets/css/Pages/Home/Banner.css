@@ -1,3 +1,6 @@
+:root{
+  --bannerTextSecondaryColor:thistle;
+}
 .banner-container{
     /* background: url('../../../img/img-1.jpg') center center/cover no-repeat; */
     height: 100vh;
@@ -41,6 +44,11 @@
 .banner-container .content h1{
   font-weight: 500;
 }
+.banner-container .content h1:hover{
+  font-weight: 500;
+  color: var(--bannerTextSecondaryColor);
+  transform: scale(1.1);
+}
 .banner-container .content h1 span{
   font-weight: 200;
 }
@@ -48,10 +56,17 @@
   font-weight: 300;
   font-size: 16px;
 }
+.banner-container .content > span:hover{
+  color: var(--bannerTextSecondaryColor);
+  transform: scale(1.1);
+}
 .banner-content-socialMedia{
   min-width: 40%;
   margin-top: 1.3rem;
 }
+.banner-content-socialMedia *:hover{
+  color: var(--bannerTextSecondaryColor);
+} 
 .test{
   display: flex;
   justify-content: center;
