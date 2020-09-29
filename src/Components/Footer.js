@@ -93,7 +93,7 @@ function Footer() {
           </a>
           <a
             className='social-icon-link twitter'
-            href='https://in.linkedin.com/in/deepak-keshri-226115129'
+            href='https://in.linkedin.com/in/dkeshri'
             target='_blank'
             aria-label='LinkedIn'
           >
