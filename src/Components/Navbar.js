@@ -82,7 +82,7 @@ function Navbar() {
                 </div>
                 <div className="extra-btn">
                     {/* <a href="#" className="btn solid">Logout</a> */}
-                    <Link className="btn solid" to="/Login">Logout</Link>
+                    <span>dkeshridev@gmail.com</span>
                 </div>
             </div>
             <div className="hamburger">
