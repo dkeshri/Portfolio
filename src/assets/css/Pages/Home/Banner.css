@@ -16,6 +16,7 @@
 .banner-container .content h1{
   font-weight: 400;
   font-size: 3.8rem;
+  cursor: pointer;
   transition: all .3s ease-in;
 }
 .banner-container .content h1:hover{
