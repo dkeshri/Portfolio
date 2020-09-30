@@ -12,10 +12,12 @@ function Banner() {
                 <div className="banner-content-socialMedia">
                     <SocialMediaIcons />
                 </div>
+                <div className="banner-btn">
+                    <a className="download-cv-link" href="#">Download CV</a>
+                </div>
             </div>
             <div class="image-container">
                 <img src={require('../../../assets/img/dkeshri.png')}/>
-                
             </div>
         </div>
     )

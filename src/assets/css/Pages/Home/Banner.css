@@ -50,6 +50,31 @@
   box-shadow: inset -3px -3px 10px #fff,
   inset 3px 3px 10px #000 ;
 }
+/* cv button*/
+.banner-btn{
+  width: 200px;
+  height: 50px;
+  margin-top: 2rem;
+  transition: all .3s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -3px -3px 15px #fff,
+  3px 3px 15px #000 ;
+}
+.banner-btn:hover{
+  box-shadow: inset -3px -3px 15px #fff,
+  inset 3px 3px 15px #000 ;
+}
+.banner-btn .download-cv-link{
+  color: var(--bannerTextSecondaryColor);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/*content sectoin end*/
+
 /*        right section*/
 .image-container{
   display: flex;
@@ -96,6 +121,13 @@
     position: relative;
     top:3rem
   }
+  /* cv btn */
+  .banner-btn{
+    position: relative;
+    top:4rem;
+    width: 180px;
+    height: 42px;
+  }
   .banner-content-socialMedia .social-icon-link{
     margin: 0 1rem;
     font-size: 1.5rem;
@@ -125,9 +157,10 @@
     width: 200px;
     height: 550px;
   }
-  .banner-content-socialMedia{
-    top:7rem
+  .banner-content-socialMedia,.banner-btn{
+    top:5rem
   }
+
 }
 @media screen and (max-width:500px){
   .image-container{
