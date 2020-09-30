@@ -14,7 +14,8 @@ function Banner() {
                 </div>
             </div>
             <div class="image-container">
-                <div className="image"></div>
+                <img src={require('../../../assets/img/dkeshri.png')}/>
+                
             </div>
         </div>
     )
