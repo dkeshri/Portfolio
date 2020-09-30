@@ -10,7 +10,7 @@ nav{
     z-index: 1000;
     position: sticky;
     top:0;
-
+    box-shadow: 3px 0px 25px var(--bannerTextSecondaryColor);
 }
 .hamburger{
   display: none;
