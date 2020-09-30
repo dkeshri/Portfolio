@@ -75,7 +75,7 @@ function Navbar() {
                                 </ul>
                             </div>
                         </li>
-                        <li className="nav-link"><a href="#">Contact Me</a>
+                        <li className="nav-link"><a href="#">Contact</a>
                             
                         </li>
                     </ul>

@@ -7,11 +7,16 @@
     background-color: var(--primaryColor);
     font-weight: 300;
   }
+  .social-media .social-icon-link{
+    color: white;
+  }
+  .social-media .social-icons *:hover{
+    transform: scale(1.15);
+  }
 @media screen and (max-width: 768px) {
     .social-media div:nth-child(1){
       display: none;
     }
-  
   }
   @media screen and (max-width: 550px) {
     .social-media{

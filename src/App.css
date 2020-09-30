@@ -5,7 +5,7 @@
   --scrollColor:#b3b6bb;/*ced1d8*/
   --scrollBGColor:rgb(236, 229, 229);
   --scrollBorderColor:#6e6f70;
-  --skewdgree:-28deg;
+  --bannerTextSecondaryColor:rgb(113,57, 79);
 }
 * {
   margin: 0;

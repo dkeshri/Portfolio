@@ -7,7 +7,7 @@ function Banner() {
         <div className="banner-container">
             <div class="content">
                 <h1>Hi,</h1>
-                <h1>I'm Deepak<span>keshri</span> !</h1>
+                <h1>I'm Deepak<span>keshri</span>!</h1>
                 <span>Software Developer</span>
                 <div className="banner-content-socialMedia">
                     <SocialMediaIcons />
