@@ -29,6 +29,7 @@
 .banner-container .content > span{
   font-weight: 300;
   font-size: 20px;
+  cursor: pointer;
 }
 .banner-container .content > span:hover{
   transform: scale(1.1);
