@@ -53,12 +53,12 @@
   font-size: 2rem;
   border-radius: 30%;
   padding: 8px;
-  box-shadow: -3px -3px 10px #fff,
-  3px 3px 10px #000 ;
+  box-shadow: -7px -7px 12px rgba(255,255,255,1),
+  7px 7px 12px #ca9393 ;
 }
 .banner-content-socialMedia .social-icon-link:hover{
-  box-shadow: inset -3px -3px 10px #fff,
-  inset 3px 3px 10px #000 ;
+  box-shadow: inset -7px -7px 12px rgba(255,255,255,1),
+  inset 7px 7px 12px #ca9393 ;
 }
 /* cv button*/
 .banner-btn{
@@ -69,12 +69,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  box-shadow: -3px -3px 15px #fff,
-  3px 3px 15px #000 ;
+  box-shadow: -7px -7px 12px rgba(255,255,255,1),
+  7px 7px 12px #ca9393 ;
 }
 .banner-btn:hover{
-  box-shadow: inset -3px -3px 15px #fff,
-  inset 3px 3px 15px #000 ;
+  box-shadow: inset -7px -7px 12px rgba(255,255,255,1),
+  inset 7px 7px 12px #ca9393 ;
 }
 .banner-btn .download-cv-link{
   color: var(--bannerTextSecondaryColor);
