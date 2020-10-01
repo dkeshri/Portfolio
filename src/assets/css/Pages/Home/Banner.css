@@ -1,6 +1,6 @@
 .banner-container{
     /* background: url('../../../img/img-1.jpg') center center/cover no-repeat; */
-    height: calc(100vh - 2rem);
+    min-height: calc(100vh - 2rem);
     width: 100%;
     display: flex;
     background-color: rgb(245, 238, 238);
@@ -151,7 +151,7 @@
     font-size: 18px;
   }
   .image-container img {
-    width: 200px;
+    width: 225px;
     height: 550px;
   }
 
@@ -162,21 +162,8 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.test{
-  display: flex;
-  justify-content: center;
-  color: black;
-  height: 100vh;
-  background-color: white;
+@media screen and (max-height:450px){
+  .banner-btn-container{
+    height: 65vh;
+  }
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '../../Button'
 import '../../../assets/css/Pages/Home/Banner.css'
 import SocialMediaIcons from '../../SocialMediaIcons'
 function Banner() {

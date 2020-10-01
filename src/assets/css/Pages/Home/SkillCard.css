@@ -1,0 +1,35 @@
+.skill-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;
+    padding: 0 20px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+                6px 6px 20px rgba(0,0,0,.1);
+                
+}
+.skill-card:hover{
+    box-shadow: inset -6px -6px 20px rgba(255,255,255,.5),
+                inset 6px 6px 20px rgba(0,0,0,.05);
+}
+.skill-card > i{
+    flex: .3;
+    font-size: 4rem;
+}
+.skill-progress-bar{
+    flex: 1;
+    border: 1px solid var(--skillProgressBarBorderColor);
+    border-radius: 20px;
+    box-shadow: inset -6px -6px 20px rgba(255,255,255,1),
+                inset 6px 6px 20px rgba(0,0,0,.1);
+}
+.progress-indicator{
+    padding: 10px 0;
+    width: 30%;
+    border-radius: 18px;
+    background-color: var(--skillColor);
+}
+.skill-card .percentage{
+    padding: 0 .2rem;
+}

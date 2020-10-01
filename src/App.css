@@ -6,6 +6,9 @@
   --scrollBGColor:rgb(236, 229, 229);
   --scrollBorderColor:#6e6f70;
   --bannerTextSecondaryColor:rgb(113,57, 79);
+  --skillBGColor:#ebf5fc;
+  --skillColor:#32a3b1;
+  --skillProgressBarBorderColor:#1d8997;
 }
 * {
   margin: 0;
