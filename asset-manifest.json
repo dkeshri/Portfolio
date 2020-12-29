@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fd034e2.chunk.css",
-    "main.js": "/static/js/main.f51df436.chunk.js",
-    "main.js.map": "/static/js/main.f51df436.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.00fd8ee5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.00fd8ee5.js.map",
-    "static/js/2.88868c12.chunk.js": "/static/js/2.88868c12.chunk.js",
-    "static/js/2.88868c12.chunk.js.map": "/static/js/2.88868c12.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1211f8383bd11f9f58bc1ad52db23fa4.js": "/precache-manifest.1211f8383bd11f9f58bc1ad52db23fa4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2fd034e2.chunk.css.map": "/static/css/main.2fd034e2.chunk.css.map",
-    "static/js/2.88868c12.chunk.js.LICENSE.txt": "/static/js/2.88868c12.chunk.js.LICENSE.txt",
-    "static/media/dkeshri.png": "/static/media/dkeshri.ab1b5c12.png",
-    "static/media/font-awesome.css": "/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/Portfolio/static/css/main.3707e0e1.chunk.css",
+    "main.js": "/Portfolio/static/js/main.22ce6499.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.22ce6499.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.1d31859f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1d31859f.js.map",
+    "static/js/2.1bd98a22.chunk.js": "/Portfolio/static/js/2.1bd98a22.chunk.js",
+    "static/js/2.1bd98a22.chunk.js.map": "/Portfolio/static/js/2.1bd98a22.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.33b191f73b60b03c1cf1099d8bb6e5a5.js": "/Portfolio/precache-manifest.33b191f73b60b03c1cf1099d8bb6e5a5.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.3707e0e1.chunk.css.map": "/Portfolio/static/css/main.3707e0e1.chunk.css.map",
+    "static/js/2.1bd98a22.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1bd98a22.chunk.js.LICENSE.txt",
+    "static/media/dkeshri.png": "/Portfolio/static/media/dkeshri.ab1b5c12.png",
+    "static/media/font-awesome.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.00fd8ee5.js",
-    "static/js/2.88868c12.chunk.js",
-    "static/css/main.2fd034e2.chunk.css",
-    "static/js/main.f51df436.chunk.js"
+    "static/js/runtime-main.1d31859f.js",
+    "static/js/2.1bd98a22.chunk.js",
+    "static/css/main.3707e0e1.chunk.css",
+    "static/js/main.22ce6499.chunk.js"
   ]
 }
