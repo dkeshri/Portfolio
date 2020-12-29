@@ -8,7 +8,7 @@ import  RegisterUser from './Components/Pages/RegisterUser'
 import PageNotFound from './Components/PageNotFound'
 export const AppRouter = () => {
     return (
-        <Router basename="/Portfolio">
+        <Router /*basename="/Portfolio"*/ >
             <Switch>
                 <Route path="/Login" exact component={Login} />
                 <Route path="/ForgotPassword" exact component={ForgotPassword} />
