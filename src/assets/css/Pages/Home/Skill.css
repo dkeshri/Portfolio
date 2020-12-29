@@ -1,4 +1,4 @@
-.skill-container{
+.skills-container{
     color: var(--skillColor);
     background-color: var(--skillBGColor);
     position: relative;
@@ -13,14 +13,13 @@
     justify-content: center;
     width: 100%;
     padding: 15px 0;
-    box-shadow: inset -6px -6px 20px rgba(255,255,255,1),
-                inset 6px 6px 20px rgba(0,0,0,.1);
 }
-.skills-container{
+.skills-body-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     height: 100vh;
+    flex-wrap: wrap;
 }
 .fornt-end{
     display: flex;
