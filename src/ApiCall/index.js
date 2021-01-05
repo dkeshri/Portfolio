@@ -5,7 +5,8 @@ const staticProperty = {
   responseType: 'json',
   headers:{
     "Content-type": "application/json; charset=UTF-8"
-  }
+  },
+  extra:'deepak'
 }
 export const useHttpRequest = (argData = {}, dependencies = []) => {
   const [isLoading, setLoading] = useState(false);
