@@ -1,5 +1,5 @@
 .container{
-    max-height: 550px;
+    min-height: 550px;
     display: flex;
 }
 .SkillContainer{
@@ -29,4 +29,20 @@
     inset 2px 2px 4px #86868d ;
     flex-wrap: wrap;
     overflow-y: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+    .SkillTitileContainer{
+        order: 1;
+    }
+    .SkillContainer{
+        order: 2;
+    }
+    .box{
+        justify-content: center;
+        align-items: center;
+    }
 }
