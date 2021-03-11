@@ -12,13 +12,13 @@ import DexieDemo from './Components/Database/DexieDemo'
 import { BrowserRouter as Router} from 'react-router-dom'
 import User from './Components/JsonPlaceholder/User'
 import UserDetail from './Components/JsonPlaceholder/UserDetail'
-import About from './Components/About'
+import About from './Components/About/About'
 export const AppRouter = () => {
     const location = useLocation();
     return (
         <AnimatePresence exitBeforeEnter>
             <Switch location={location} key={location.key}>
-                <ProtectedRoute path="/" exact component={About} />
+                <ProtectedRoute path="/" exact component={Home} />
                 <ProtectedRoute path="/Home" exact component={Home} />
                 <ProtectedRoute path="/Test" exact component={Test} />
                 <ProtectedRoute path="/Components/Forms/Formic" exact component={FormicForm} />
