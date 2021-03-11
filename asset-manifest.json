@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3707e0e1.chunk.css",
-    "main.js": "/Portfolio/static/js/main.22ce6499.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.22ce6499.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.1d31859f.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.1d31859f.js.map",
-    "static/js/2.1bd98a22.chunk.js": "/Portfolio/static/js/2.1bd98a22.chunk.js",
-    "static/js/2.1bd98a22.chunk.js.map": "/Portfolio/static/js/2.1bd98a22.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.ba09979c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.000a7913.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.000a7913.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.034dbf32.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.034dbf32.js.map",
+    "static/js/2.1e6f25e8.chunk.js": "/Portfolio/static/js/2.1e6f25e8.chunk.js",
+    "static/js/2.1e6f25e8.chunk.js.map": "/Portfolio/static/js/2.1e6f25e8.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.33b191f73b60b03c1cf1099d8bb6e5a5.js": "/Portfolio/precache-manifest.33b191f73b60b03c1cf1099d8bb6e5a5.js",
+    "precache-manifest.db121ad4c04f7b84fb3491647b212d9e.js": "/Portfolio/precache-manifest.db121ad4c04f7b84fb3491647b212d9e.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.3707e0e1.chunk.css.map": "/Portfolio/static/css/main.3707e0e1.chunk.css.map",
-    "static/js/2.1bd98a22.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1bd98a22.chunk.js.LICENSE.txt",
-    "static/media/dkeshri.png": "/Portfolio/static/media/dkeshri.ab1b5c12.png",
-    "static/media/font-awesome.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff"
+    "static/css/main.ba09979c.chunk.css.map": "/Portfolio/static/css/main.ba09979c.chunk.css.map",
+    "static/js/2.1e6f25e8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1e6f25e8.chunk.js.LICENSE.txt",
+    "static/media/Deepak_pic.jpg": "/Portfolio/static/media/Deepak_pic.70fe9e1f.jpg",
+    "static/media/Dummy.jpg": "/Portfolio/static/media/Dummy.02ab6391.jpg",
+    "static/media/facebook.svg": "/Portfolio/static/media/facebook.8918961d.svg",
+    "static/media/font-awesome.css": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/google.svg": "/Portfolio/static/media/google.966c5067.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d31859f.js",
-    "static/js/2.1bd98a22.chunk.js",
-    "static/css/main.3707e0e1.chunk.css",
-    "static/js/main.22ce6499.chunk.js"
+    "static/js/runtime-main.034dbf32.js",
+    "static/js/2.1e6f25e8.chunk.js",
+    "static/css/main.ba09979c.chunk.css",
+    "static/js/main.000a7913.chunk.js"
   ]
 }
