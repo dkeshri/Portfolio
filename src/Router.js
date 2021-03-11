@@ -18,7 +18,7 @@ export const AppRouter = () => {
     return (
         <AnimatePresence exitBeforeEnter>
             <Switch location={location} key={location.key}>
-                <ProtectedRoute path="/" exact component={Home} />
+                <ProtectedRoute path="/" exact component={About} />
                 <ProtectedRoute path="/Home" exact component={Home} />
                 <ProtectedRoute path="/Test" exact component={Test} />
                 <ProtectedRoute path="/Components/Forms/Formic" exact component={FormicForm} />
