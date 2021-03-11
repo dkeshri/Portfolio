@@ -1,5 +1,5 @@
 import cookie from 'react-cookies'
-
+import Dexie from 'dexie'
 export const setCookie = (argCookies = {}) => {
     let expires, path;
     if (argCookies.expires === undefined || argCookies.expires === null) {
@@ -14,7 +14,6 @@ export const setCookie = (argCookies = {}) => {
         path = argCookies.path;
     }
     if (argCookies.key !== undefined && argCookies.value !== undefined) {
-        console.log(argCookies);
         cookie.save(
             argCookies.key,
             argCookies.value,
@@ -23,8 +22,8 @@ export const setCookie = (argCookies = {}) => {
                 expires,
                 //maxAge: 1000,
                 //domain: 'https://play.bukinoshita.io',
-                 //secure: true,
-                 //httpOnly: true
+                secure: true,
+                httpOnly: true
             }
         );
     } else {
@@ -41,11 +40,30 @@ export const getCookie = (key) => {
     }
 
 }
-export const removeCookie = (key) =>{
-    if (key !== undefined && key !== null) {
-        return cookie.remove(key);
+export const Year = (new Date()).getFullYear();
+export class Database {
+    constructor(databaseName,tableName) {
+        this.dbname = databaseName;
+        this.db = new Dexie(databaseName,tableName);
+        this.tableName = tableName;
     }
-    else {
-        console.log(`key can not be ${key}`);
+    createDatabaseSchema = (store) => {
+        this.db.version(1).stores(store);
+    }
+    openDatabase = ()=>{
+        return this.db.open(this.dbname,1);
+    }
+    addRecord = (item)=>{
+        let promise = new Promise((resolve,reject)=>{
+
+            this.db[this.tableName].add(item)
+            .then(res=>{
+                resolve(res);
+            })
+            .catch((e)=>{
+                reject(new Error(e));
+            })
+        });
+        return promise;
     }
 }
