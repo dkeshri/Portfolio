@@ -1,5 +1,5 @@
 .container{
-    min-height: 550px;
+    max-height: 515px;
     display: flex;
 }
 .SkillContainer{
@@ -30,6 +30,13 @@
     flex-wrap: wrap;
     overflow-y: auto;
 }
+@media screen and (max-width: 845px) {
+    .box{
+        justify-content: center;
+        align-items: center;
+        transition: all .3s ease-in-out;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .container{
@@ -43,7 +50,7 @@
         order: 2;
     }
     .box{
-        justify-content: center;
-        align-items: center;
+        max-height: 300px;
+        overflow-y: auto;
     }
 }
