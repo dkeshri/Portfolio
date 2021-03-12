@@ -37,6 +37,7 @@
     }
     .SkillTitileContainer{
         order: 1;
+        margin-top: 20px;
     }
     .SkillContainer{
         order: 2;

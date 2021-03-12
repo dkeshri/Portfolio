@@ -70,4 +70,7 @@
     .Contact_Image{
         display: none;
     }
+    h5{
+        font-size: medium;
+    }
 }
