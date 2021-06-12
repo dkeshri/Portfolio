@@ -3,7 +3,7 @@
     display: flex;
 }
 .banner{
-    height: 450px;
+    height: 400px;
     background-image: url('../../img/slider/banner-4.jpg');
     width: 100%;
     background-size: cover; /* <------ */
