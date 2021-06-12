@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31b7e5741feb3110ce09c857ef1669ad",
+    "revision": "3dd6a440764382b2d17803b7f66c5993",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "d7c3bb4445e6e3876533",
-    "url": "/Portfolio/static/css/main.ceb35516.chunk.css"
+    "revision": "b1a5366853cb6e3719d8",
+    "url": "/Portfolio/static/css/main.569b4b27.chunk.css"
   },
   {
-    "revision": "d217604a1ef4e29e4e4b",
-    "url": "/Portfolio/static/js/2.d9ed67ff.chunk.js"
+    "revision": "abe9ebfda606f189e11f",
+    "url": "/Portfolio/static/js/2.bf205ea9.chunk.js"
   },
   {
     "revision": "76d6bc6c51809ac86151bb2c29736d55",
-    "url": "/Portfolio/static/js/2.d9ed67ff.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.bf205ea9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7c3bb4445e6e3876533",
-    "url": "/Portfolio/static/js/main.8baaa1f6.chunk.js"
+    "revision": "b1a5366853cb6e3719d8",
+    "url": "/Portfolio/static/js/main.4f1a81da.chunk.js"
   },
   {
     "revision": "23397d25efa81aeabf5a",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "02ab6391307b5f6b9c539a147102a5a2",
     "url": "/Portfolio/static/media/Dummy.02ab6391.jpg"
+  },
+  {
+    "revision": "9f527fa04a6234b305c2ef4b985c229d",
+    "url": "/Portfolio/static/media/banner-4.9f527fa0.jpg"
   },
   {
     "revision": "ea8b2c7ffd5c52a18af82828a44909a3",
@@ -46,10 +50,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6971ddc761cc35ba918be0a69dfbcf50",
     "url": "/Portfolio/static/media/css.6971ddc7.svg"
-  },
-  {
-    "revision": "8918961dfb9f198bed3212b07614b04d",
-    "url": "/Portfolio/static/media/facebook.8918961d.svg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/Portfolio/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
-    "revision": "966c50679721b63fd35af3951bd52817",
-    "url": "/Portfolio/static/media/google.966c5067.svg"
   },
   {
     "revision": "1fa71037fda75a5629d7ff1a94d1913b",
