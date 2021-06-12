@@ -3,7 +3,7 @@ import { Redirect, Route, useHistory } from 'react-router-dom'
 import { NavBar } from './Components/Common/NavBar'
 import { motion } from 'framer-motion'
 import Footer from './Components/Common/Footer'
-import Login from './Components/OpenPage/Login'
+import Login from './Components/Home'
 import { AppConfig } from './data/AppConfig.js'
 const mainContentSectionVariants = {
     init: {
