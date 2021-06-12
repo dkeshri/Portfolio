@@ -1,6 +1,7 @@
 import React from 'react'
 import style from '../../assets/css/About/AboutUs.module.css'
 import Contact from './Contact'
+import Experience from './Experience'
 import Skill from './Skill'
 const About = () => {
     return (
@@ -38,15 +39,12 @@ const About = () => {
                 </div>
             </div>
             <div>
-                {/* <div className={style.Contact_heading}>
-                    <h1 className={style.h1}>Contact</h1>
-                    <span className={style.span}>Info</span>
-                </div> */}
                 <Contact/>
             </div>
             <div className={style.line_black}></div>
             <div className={style.line_black}></div>
             <Skill/>
+            <Experience/>
         </>
 
     )

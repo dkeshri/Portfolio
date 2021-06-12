@@ -1,0 +1,45 @@
+.container{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+}
+.banner{
+    height: 400px;
+    background-image: url('../../img/slider/banner-4.jpg');
+    width: 100%;
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dummyblock{
+    flex: .2;
+    display: flex;
+}
+.heading{
+ text-align: center;
+}
+.heading > .h1{
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Merienda', cursive;
+}
+.heading > .span{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+}
+.ExpYear{
+    font-family: 'Parisienne', cursive;
+    font-size: 32px;
+}
+.textShadow{
+    text-shadow: -2px 2px #e0e9e0;
+}
