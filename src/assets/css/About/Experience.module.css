@@ -1,10 +1,9 @@
 .container{
-    min-height: 400px;
     width: 100%;
     display: flex;
 }
 .banner{
-    height: 400px;
+    height: 450px;
     background-image: url('../../img/slider/banner-4.jpg');
     width: 100%;
     background-size: cover; /* <------ */
