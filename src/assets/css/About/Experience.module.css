@@ -42,3 +42,8 @@
 .textShadow{
     text-shadow: -2px 2px #e0e9e0;
 }
+@media screen and (max-width:400px){
+    .dummyblock{
+        display: none;
+    }
+  }
