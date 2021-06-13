@@ -1,24 +1,6 @@
 import React from 'react'
 import style from '../../assets/css/About/Experience.module.css'
-const yearDiff = (startDate,endDate)=>{
-    let startDateArr = startDate.split('-');
-    let endDateArr =  endDate.split('-');
-
-    let years = parseInt(endDateArr[0])-parseInt(startDateArr[0]);
-    console.log(years);
-    let months = parseInt(endDateArr[1])-parseInt(startDateArr[1]);
-    if(months<0){
-        months = months+12;
-        years--;
-    }
-    let days = parseInt(endDateArr[2])-parseInt(startDateArr[2]);
-    if(days<0){
-        days=days+30;
-        months--;
-    }
-
-    return {years,months,days};
-}
+import { yearDiff } from '../../utility';
 const Experience = () => {
     //new Date(year, month, day, hours, minutes, seconds, milliseconds)
     
@@ -26,6 +8,7 @@ const Experience = () => {
     let now = new Date();
     let end = now.getFullYear()+'-'+(now.getMonth()+1)+'-'+now.getDate();
     const Exp = yearDiff(start,end);
+    const CurrentCompExp = yearDiff('2018-12-10',end);
     return (
         <div className={style.container}>
             <div className={style.banner}>
@@ -58,13 +41,19 @@ const Experience = () => {
                             <span className={style.CurrentCompany}>
                                 <b>Join Date : </b> 10th dec 2018
                             </span>
+                            <br/>
+                            <span className={style.CurrentCompany}>
+                                <b>Experience : </b> 
+                                {CurrentCompExp.years===0?undefined:<span><b> {CurrentCompExp.years}</b> years</span>}
+                                {CurrentCompExp.months===0?undefined:<span><b> {CurrentCompExp.months}</b> months</span>}
+                            </span>
                         </div>
                     </div>
                 </div>
                 <div className={style.dummyblock}></div>
             </div>
-            <div className={style.Company_container}>
-            </div>
+            {/* <div className={style.Company_container}>
+            </div> */}
         </div>
     )
 }

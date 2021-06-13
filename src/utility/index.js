@@ -67,3 +67,22 @@ export class Database {
         return promise;
     }
 }
+export const yearDiff = (startDate,endDate)=>{
+    let startDateArr = startDate.split('-');
+    let endDateArr =  endDate.split('-');
+
+    let years = parseInt(endDateArr[0])-parseInt(startDateArr[0]);
+    console.log(years);
+    let months = parseInt(endDateArr[1])-parseInt(startDateArr[1]);
+    if(months<0){
+        months = months+12;
+        years--;
+    }
+    let days = parseInt(endDateArr[2])-parseInt(startDateArr[2]);
+    if(days<0){
+        days=days+30;
+        months--;
+    }
+
+    return {years,months,days};
+}
