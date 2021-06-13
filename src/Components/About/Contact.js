@@ -40,6 +40,7 @@ const Contact = () => {
             </div>
             <div className={style.Contact_Image}>
                 <img
+                    alt="Contact_section_img"
                     className={style.img}
                     src={require('../../assets/img/profile/Dummy.jpg')} />
             </div>

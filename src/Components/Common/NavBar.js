@@ -30,9 +30,6 @@ export const NavBar = React.memo(() => {
         setMenuItemSelectedState(nodeId);
         selectedNode = nodeId;
     }
-    const style = {
-        img: { "height": "100%", "width": "250px" }
-    }
     return (
         <>
             <nav>

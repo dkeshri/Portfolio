@@ -1,5 +1,5 @@
 import React from 'react'
-import { Redirect, Route, useHistory } from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import { NavBar } from './Components/Common/NavBar'
 import { motion } from 'framer-motion'
 import Footer from './Components/Common/Footer'
@@ -20,7 +20,6 @@ const mainContentSectionVariants = {
 }
 export const ProtectedRoute = ({ component: Component, openPage: isOpenPage, ...rest }) => {
     const isAuthenticated = AppConfig.isAuth;
-    const history = useHistory()
     return (<Route
         {...rest}
         render={(prpos) => {

@@ -1,23 +1,26 @@
 .container{
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 .banner{
-    height: 400px;
+    height: 600px;
     background-image: url('../../img/slider/banner-4.jpg');
     width: 100%;
-    background-size: cover; /* <------ */
-    background-repeat: no-repeat;
-    background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .content{
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
 }
 .dummyblock{
     flex: .2;
@@ -42,8 +45,16 @@
 .textShadow{
     text-shadow: -2px 2px #e0e9e0;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
     .dummyblock{
         display: none;
     }
-  }
+}
+.CurrentCompany{
+    font-family: 'Parisienne', cursive;
+    font-size: 32px;
+}
+
+.Company_container{
+    min-height: 200px;
+}

@@ -3,34 +3,34 @@ import style from '../../assets/css/About/svg.module.css'
 const SVGContainer = () => {
     return (<>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/react.svg')}></img>
+            <img alt="react" className={style.img} src={require('../../assets/svg/react.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/redux.svg')}></img>
+            <img alt="redux" className={style.img} src={require('../../assets/svg/redux.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/html5.svg')}></img>
+            <img alt="html" className={style.img} src={require('../../assets/svg/html5.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/css.svg')}></img>
+            <img alt="css" className={style.img} src={require('../../assets/svg/css.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/js.svg')}></img>
+            <img alt="Javascript" className={style.img} src={require('../../assets/svg/js.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/jquery.svg')}></img>
+            <img alt="jquery" className={style.img} src={require('../../assets/svg/jquery.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/bootstrap.svg')}></img>
+            <img alt="bootstrap" className={style.img} src={require('../../assets/svg/bootstrap.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/cpp.svg')}></img>
+            <img alt="c++" className={style.img} src={require('../../assets/svg/cpp.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/csharp.svg')}></img>
+            <img alt="c#" className={style.img} src={require('../../assets/svg/csharp.svg')}></img>
         </div>
         <div className={style.container}>
-            <img className={style.img} src={require('../../assets/svg/java.svg')}></img>
+            <img alt="java" className={style.img} src={require('../../assets/svg/java.svg')}></img>
         </div>
         
     </>

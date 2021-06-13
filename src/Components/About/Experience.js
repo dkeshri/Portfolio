@@ -36,14 +36,34 @@ const Experience = () => {
                         </span>
                         <div className={style.textShadow}>
                             <span className={style.ExpYear}>
-                                {Exp.years==0?undefined:<span><b> {Exp.years}</b> years</span>}
-                                {Exp.months==0?undefined:<span><b> {Exp.months}</b> months</span>}
-                                {Exp.days==0?undefined:<span><b> {Exp.days}</b> days</span>}
+                                {Exp.years===0?undefined:<span><b> {Exp.years}</b> years</span>}
+                                {Exp.months===0?undefined:<span><b> {Exp.months}</b> months</span>}
+                                {Exp.days===0?undefined:<span><b> {Exp.days}</b> days</span>}
+                            </span>
+                        </div>
+                    </div>
+                    <div className={style.heading}>
+                        <span className={`${style.span} ${style.textShadow}`}>
+                            <b>Current Company</b>
+                        </span>
+                        <div className={style.textShadow}>
+                            <span className={style.CurrentCompany}>
+                                <b>Epay Systems</b>
+                            </span>
+                            <br/>
+                            <span className={style.CurrentCompany}>
+                                <b>Designation : </b> Software Engineer
+                            </span>
+                            <br/>
+                            <span className={style.CurrentCompany}>
+                                <b>Join Date : </b> 10th dec 2018
                             </span>
                         </div>
                     </div>
                 </div>
                 <div className={style.dummyblock}></div>
+            </div>
+            <div className={style.Company_container}>
             </div>
         </div>
     )

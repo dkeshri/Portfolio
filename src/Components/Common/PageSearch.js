@@ -14,19 +14,11 @@ const getItemFromMenuConfig = (MenuConfig) => {
     });
     //return optionList;
 }
-
-const useStyles = makeStyles((theme) => ({
-    SelectStyle: {
-       
-
-    }
-}));
 function PageSearch({ seacrchBoxProps }) {
     useEffect(() => {
         if (optionList.length === 0)
             getItemFromMenuConfig(config.menuItems);
     }, []);
-    const classes = useStyles();
     return (
         <div>
             <Select

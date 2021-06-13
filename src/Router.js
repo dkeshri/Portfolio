@@ -4,7 +4,6 @@ import { ProtectedRoute } from './ProtectedRoute'
 import Home from './Components/Home'
 import PageNotFound from './Components/Common/PageNotFound'
 import { AnimatePresence } from 'framer-motion'
-import { BrowserRouter as Router} from 'react-router-dom'
 import About from './Components/About/About'
 export const AppRouter = () => {
     const location = useLocation();

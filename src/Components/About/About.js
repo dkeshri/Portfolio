@@ -9,6 +9,7 @@ const About = () => {
             <div className={`${style.box}`}>
                 <div className={style.photo}>
                     <img
+                        alt="profilePic"
                         className={style.img}
                         src={require('../../assets/img/profile/Deepak_pic.jpg')} />
                 </div>
@@ -30,21 +31,21 @@ const About = () => {
                         </div>
                         <div className={style.objective}>
                             <span>My main objective is develop the Software and solve the real life problem and want to implement
-                            that problem into the computing environment.I want to be the reason of success
-                            of company wherever I work.
-                          </span>
+                                that problem into the computing environment.I want to be the reason of success
+                                of company wherever I work.
+                            </span>
                         </div>
 
                     </div>
                 </div>
             </div>
             <div>
-                <Contact/>
+                <Contact />
             </div>
             <div className={style.line_black}></div>
             <div className={style.line_black}></div>
-            <Skill/>
-            <Experience/>
+            <Skill />
+            <Experience />
         </>
 
     )
